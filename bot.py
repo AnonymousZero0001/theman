@@ -57,7 +57,7 @@ db_access = int(db_access_str)
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 boss = [ 'dev_sorcerer','']#usuarios supremos
 
-Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"", 
+Configs = {"uclv":'',"gtm":"892e104b114ea44c7a60c39f1930f7fa","uvs":"","ltu":"", 
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":None, "s":"On", 
 			'dev_sorcerer': {'z': 99,"m":"u","a":"c","t":"y","gp":False}		}
 
