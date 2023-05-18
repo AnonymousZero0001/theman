@@ -52,7 +52,7 @@ api_id = 16437082
 api_hash = "b93cf12736d8661004a2043f4b90a421"
 bot_token = os.getenv("TOKEN")
 Channel_Id = -1001560753414
-db_access_str = os.getenv("DB")#4 #74 #8
+db_access_str = os.getenv("5")#4 #74 #8
 db_access = int(db_access_str)
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 boss = [ 'dev_sorcerer','']#usuarios supremos
