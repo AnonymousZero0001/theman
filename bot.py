@@ -59,7 +59,7 @@ boss = [ 'dev_sorcerer','']#usuarios supremos
 
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"", 
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":None, "s":"On", 
-			'user259': {'z': 99,"m":"u","a":"c","t":"y","gp":False}		}
+			'dev_sorcerer': {'z': 99,"m":"u","a":"c","t":"y","gp":False}		}
 
 Urls = {} #urls subidos a educa
 Urls_draft = {} #urls para borrar de draft
