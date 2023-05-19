@@ -1449,11 +1449,11 @@ def filezip(fpath: Path, password: str = None, volume = None):
 def update(username):
     Configs[username] = {"z": 900,"m":"e","a":"a"}
 async def get_messages():
-	msg = await bot.get_messages(Channel_Id,message_ids=3)
+	msg = await bot.get_messages(Channel_Id,message_ids=3786)
 	Configs.update(loads(msg.text))
 async def send_config():
 	try:
-		await bot.edit_message_text(Channel_Id,message_id=3,text=dumps(Configs,indent=4))
+		await bot.edit_message_text(Channel_Id,message_id=3786,text=dumps(Configs,indent=4))
 	except:
 	
 		pass
